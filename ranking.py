@@ -189,6 +189,8 @@ def calcular_score_final(df):
         0.158*((score_cons + score_cons_sem)/2) +
         0.150*score_info
     )
+    score_final = float(np.clip(score_final, 0, 1))
+    
     return score_final, {
         "Organization": score_org,
         "Precision": score_prec,
@@ -198,6 +200,7 @@ def calcular_score_final(df):
         "Semantic Consistency": score_cons_sem,
         "Informativeness": score_info
     }
+
 
 # -----------------------------
 # Gráfico radar usando matplotlib
@@ -277,4 +280,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
