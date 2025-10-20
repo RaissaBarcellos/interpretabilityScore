@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Ferramenta de Avaliação de Interpretabilidade de Dados Governamentais Abertos
+Nyx - Ferramenta de Avaliação de Interpretabilidade de Dados Governamentais Abertos
 -----------------------------------------------------------------------------
 Este script avalia automaticamente métricas de interpretabilidade em datasets CSV,
 gerando scores, tabela sumarizada e gráfico radar usando matplotlib.
