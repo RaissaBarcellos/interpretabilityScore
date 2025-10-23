@@ -30,6 +30,10 @@ It evaluates multiple interpretability dimensions and outputs structured results
 
 The **final interpretability score** is a weighted average of all metrics, ranging from **0 (low interpretability)** to **1 (high interpretability)**.
 
+## Run
+
+python ranking.py --input file.csvm --out results
+
 ---
 
 ## Output Files
