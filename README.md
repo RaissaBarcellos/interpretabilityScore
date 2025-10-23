@@ -32,7 +32,7 @@ The **final interpretability score** is a weighted average of all metrics, rangi
 
 ## Run
 
-python ranking.py --input file.csvm --out results
+python ranking.py --input file.csv --out results
 
 ---
 
